@@ -25,7 +25,7 @@ export function Login() {
       if (response.ok) {
         alert("Login Successful!");
         localStorage.setItem("token", data.token);
-        // navigate("/dashboard");
+        navigate("/home");
       } else {
         alert(data.error);
       }
