@@ -1,5 +1,5 @@
 import React from "react";
-import LoanCalculator from "../Components/loanCalculator";
+import LoanCalculator from "../Components/LoanCalculator";
 import LoanApplication from "../Components/LoanApplication";
 import Slip from "../Components/Slip";
 
